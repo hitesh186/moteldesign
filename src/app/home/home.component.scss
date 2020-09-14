@@ -1,0 +1,117 @@
+
+.container{
+   
+    background: url(/assets/images/beach-logo)center center no-repeat;
+    background-size: cover;
+    
+}
+
+.book-container{
+    padding: 35px 115px;
+}
+
+.book-button{
+    width: 170px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 254, 254);
+    text-transform: uppercase;
+    border-radius: 4px solid;
+}
+
+.header-container{
+   padding: 60px 20px;
+   text-align: center;
+   max-width: 600px;
+}
+
+.header-container .mat-headline {
+    color: white;
+    margin: 10px;
+}
+
+.maldives{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, 50%);
+
+}
+.maldives h3{
+    -webkit-text-fill-color: transparent;
+    background: url(/assets/images/text.jpg)repeat;
+    -webkit-background-clip: text;
+    font-stretch: normal;
+    font-size: 200px;
+    letter-spacing: 0.09em;
+    font-weight: 500;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
+
+.home-section{
+    text-align: center;
+    line-height: normal;
+}
+
+.rooms{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.rooms .mat-card {
+    position: relative;
+    text-align: center;
+}
+.room-suites{
+    background: url(/assets/images/room2.jpg)center center no-repeat;
+    background-size: cover;
+}
+.beach-house{
+    background: url(/assets/images/room1.jpg)center center no-repeat;
+    background-size: cover;
+}
+.rooms mat-card{
+    height: 600px;;
+}
+.rooms mat-card-header h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 43px;
+}
+.rooms mat-card-header {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    height: 55px;
+    background: rgba(255, 248, 225, .6);
+}
+.rooms mat-card-actions{
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.rooms mat-card button {
+    min-width: 141px;
+    min-height: 40px;
+}
+/* @media all and (max-width: 768px){
+  .container{
+      height: 100vh;
+  }
+}
+ */
+@media all and (max-width: 599px){
+    .header-container .mat-headline{
+        font-size: 3rem;
+        line-height: 1.1;
+    }
+}
